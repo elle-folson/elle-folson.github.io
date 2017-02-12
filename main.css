@@ -1,0 +1,33 @@
+.navbar-brand {
+  font-family: 'Sunshiney', cursive;
+}
+
+#featured {
+  background: pink;
+  background-image: url('images.htm/vertical-hearts.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+
+.col-sm-6{
+    color: #ff0066;/*hot pink*/
+    font-family: 'Sansita', sans-serif;
+    font-size: 125%;
+    line-height: 2.5;
+    text-align: left;
+}
+
+img{
+  float: right;
+  margin-right: 1em;
+  margin-top: 25px;
+}
+
+footer{
+  background-color: #2D2D2D;/*black*/
+  color: #E9B000;/*goldish*/
+  opacity: 0.75;
+  padding: 15px;
+}

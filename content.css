@@ -1,0 +1,109 @@
+body {
+  background: url('images.htm/cut_board.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-color: #E9B000;/*goldish*/
+  background-position: bottom;
+  background-size: 90% 95%;
+}
+
+.row.content{
+  height: 450px;
+}
+
+.sidenav{
+  background-color: green;
+  color: #E9B000;/*goldish*/
+  height: 100%;
+}
+
+#food{
+  border: 2px solid orange;
+  margin-right: 2em;
+  margin-top: 6.5em;
+}
+
+ul.info{
+  font-weight: bold;
+  list-style-image: url('images.htm/sqorange.png');
+  text-align: left;
+  font-size: 125%;
+}
+
+h3{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 175%;
+}
+
+ol p{
+  color: blue;
+  font-family: 'Rancho', cursive;
+  font-size: 225%;
+  text-align: center;
+}
+
+ol.recipe{
+  background-color: #E9B000;/*goldish*/
+  border: 5px double blue;
+  font-weight: bold;
+  opacity: 0.90;
+  padding-right: 2.5em;
+  margin-right: 2em;
+  margin-top: 8.5em;
+}
+
+ol.slow_recipe{
+  background-color: #E9B000;/*goldish*/
+  border: 5px double blue;
+  font-weight: bold;
+  opacity: 0.90;
+  padding-right: 2.5em;
+  margin-right: 2em;
+}
+
+ul.ingredients{
+  border: 5px double blue;
+  font-size: 125%;
+  list-style-type: square;
+  text-align: left;
+}
+
+ul.slow-dessert-ingredients{
+  border: 5px double blue;
+  font-size: 85%;
+  list-style-type: square;
+  text-align: left;
+}
+
+footer{
+  background-color: #2D2D2D;/*black*/
+  color: #E9B000;/*goldish*/
+  opacity: 0.75;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 40%;
+}
+
+footer.container-fluid {
+  margin-right: 4em;
+  margin-top: 3em;
+}
+
+@media screen and (max-width: 767px){
+  .sidenav{
+    height: auto;
+    padding: 15px;
+  }
+  .row.content{
+    height: auto;
+  }
+}
+
+form {
+  font-size: 200%;
+  margin-left: 100px;
+  margin-top: 150px;
+}
